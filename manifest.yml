@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-andrew
+  host: iot-andrew
+  disk_quota: 1024M
+  services:
+  - iot-andrew-cloudantNoSQLDB
+  - iot-andrew-iotf-service
